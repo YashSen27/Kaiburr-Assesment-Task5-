@@ -1,37 +1,7 @@
-# CI/CD Pipeline Example with Kubernetes and Jenkins
+# CI/CD Pipeline using Jenkins and Kubernetes
 
-## Table of Contents
 
-* [1. Introduction](#1-introduction)
-* [2. Set up Jenkins](#2-set-up-jenkins)
-  * [2.1 Install Jenkins](#21-install-jenkins)
-  * [2.2 Expose Jenkins](#22-expose-jenkins)
-  * [2.3 Configure Jenkins](#23-configure-jenkins)
-* [3. Set up Docker Host](#3-set-up-docker-host)
-* [4. Generate Static Kubeconfig](#4-generate-static-kubeconfig)
-  * [4.1 Install Dependencies](#41-install-dependencies)
-  * [4.2 Get Kubeconfig](#42-get-kubeconfig)
-* [5. Create Multibranch Pipeline](#5-create-multibranch-pipeline)
-  * [5.1 Using GitHub](#51-using-github)
-  * [5.2 Using GitLab](#52-using-gitlab)
-* [6. Required Credentials](#6-required-credentials)
-  * [6.1 Add Docker Registry Credentials](#61-add-docker-registry-credentials)
-  * [6.2 Add Kubeconfig Credentials](#62-add-kubeconfig-credentials)
-* [7. The Jenkinsfile](#7-the-jenkinsfile)
-  * [7.1 Define Constants](#71-define-constants)
-  * [7.2 Build and Store Docker Image](#72-build-and-store-docker-image)
-  * [7.3 Deploy to Cluster](#73-deploy-to-cluster)
-  * [7.4 Build Status](#74-build-status)
-* [8. Conclusion](#8-conclusion)
-* [9. Useful Links](#9-useful-links)
-
-## 1. Introduction
-
-The purpose of this example is to take you through an easy to follow and simple approach of a CI/CD (Continuous Integration/Continuous Deployment) workflow. It will take you through setting up a Multibranch Pipeline to build the application docker image, store it to a registry, and deploying the application to a Kubernetes cluster, all on a single push event. It will also provide instructions for GitHub and GitLab.
-
-This example makes assumptions that you have at least a basic knowledge of Kubernetes and are new to Jenkins.
-
-Prerequisites:
+## 1. Prerequisites
 
 * Set up a Kubernetes cluster
 * Install Helm locally
