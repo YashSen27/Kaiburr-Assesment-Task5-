@@ -467,7 +467,7 @@ pipeline {
 
 ## 8. Conclusion
 
-In conclusion, this example should provide a simple straightforward method for a CI/CD workflow. You can see the full example of the Jenkinsfile for GitHub [here](https://github.com/mjah/kubernetes-jenkins-cicd-pipeline-example/blob/master/Jenkinsfile) and for GitLab [here](https://gitlab.com/mjah/kubernetes-jenkins-cicd-pipeline-example/-/blob/master/Jenkinsfile).
+In conclusion, this example should provide a simple straightforward method for a CI/CD workflow. You can see the full example of the Jenkinsfile for GitHub [here](Jenkinsfile).
 
 ## 9. Useful Links
 
