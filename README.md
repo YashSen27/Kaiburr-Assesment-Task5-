@@ -445,3 +445,11 @@ In conclusion, this example should provide a simple straightforward method for a
 * [GitHub Plugin](https://plugins.jenkins.io/github/)
 * [GitLab Plugin](https://plugins.jenkins.io/gitlab-plugin/)
 * [Jenkins Pipeline](https://jenkins.io/doc/book/pipeline/)
+
+## 10. Screenshots
+![Pipeline2](https://user-images.githubusercontent.com/111111808/232207138-42297f4f-f86c-4ed4-aedb-8a2d4cfec637.png)
+![Pipeline1](https://user-images.githubusercontent.com/111111808/232207203-ae904d33-570b-48a5-b1f8-0f90ed38b1b7.png)
+![kubectl_commands1](https://user-images.githubusercontent.com/111111808/232207219-4fb8c8f5-68b3-425e-bd03-91f6436cc45e.png)
+![kubectl_commands2](https://user-images.githubusercontent.com/111111808/232207222-8c6ef173-43e5-46d7-b273-1e4e8b8800e1.png)
+
+
